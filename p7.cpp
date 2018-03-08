@@ -19,6 +19,7 @@ int main()
         prime[i]=true;
     }
 
+    //Sieve of Eratosthenes
     for(long p=2;p<=limit;p++)
     {
         if(prime[p]==true)
@@ -30,6 +31,7 @@ int main()
         }
     }
 
+    //print the 10001st prime number
     for(long i=2;i<=limit;i++)
     {
         if(prime[i])
@@ -41,7 +43,6 @@ int main()
                 break;
             }
         }
-        //cout<<i<<"="<<prime[i]<<endl;
     }
 
     return 0;
