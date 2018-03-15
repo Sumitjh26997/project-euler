@@ -14,7 +14,6 @@ using namespace std;
 int main()
 {
     int a,b,c,sum,flag=0;
-
     long product,pth;
     for(a=1;a<=1000;a++)
     {
