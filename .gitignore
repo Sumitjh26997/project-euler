@@ -1,3 +1,4 @@
 #compiled code
-a.out
+*.exe
+*.out
 .vscode
